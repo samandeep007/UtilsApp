@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark to Grade Converter</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../script/SODV1201_A1_ArshdeepKaur_functions.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Arshdeep Kaur</h1>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a class="active" href="mark-to-grade.html">Mark to Grade Converter</a></li>
+                    <li><a href="staff.html">Staff Page</a></li>
+                    <li><a href="weather.html">Weather Conversion</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="converter-container">
+            <h2>Mark to Grade Converter</h2>
+            <div class="converter-form">
+                <div class="input-group">
+                    <input type="text" id="mark-input-box" placeholder="Enter your mark">
+                    <button onclick="MarkToGrade()">Convert</button>
+                </div>
+                <div id="validation-message"></div>
+                <div id="grade-output"></div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p id="footer-text">
+                <span id="current-date"></span> | &copy; Arshdeep Kaur
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
